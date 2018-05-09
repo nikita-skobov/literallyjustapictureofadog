@@ -6,10 +6,13 @@ html
     body
         h1 LITERALLY JUST A PICTURE OF A DOG
         #main1
-            img(src='https://d1ahv7jqi833s4.cloudfront.net/dog.png')
+            img(src=url)
+            //- dynamically load an image url which is passed from the server
         #main2
             #msg1
-                div Questions or comments? Email me at nskobov.websites@gmail.com
+                div Questions or comments? Email me at #{my_email}
+                //- dynamically load an email address which is passed from the server
             #msg2
-                p Want to see the code? <a href='https://github.com/nikita-skobov/literallyjustapictureofadog'> Github </a>
+                p Want to see the code? <a href=#{github}> Github </a>
+                //- dynamically load github repository address which is passed from the server
         
