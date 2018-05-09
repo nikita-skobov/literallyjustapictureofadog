@@ -1,0 +1,25 @@
+{
+  "name": "literallyjustapictureofadog",
+  "version": "1.0.0",
+  "description": "a website whose only purpose is to show a picture of a dog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikita-skobov/literallyjustapictureofadog.git"
+  },
+  "author": "nikita skobov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikita-skobov/literallyjustapictureofadog/issues"
+  },
+  "homepage": "https://github.com/nikita-skobov/literallyjustapictureofadog#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  }
+}
